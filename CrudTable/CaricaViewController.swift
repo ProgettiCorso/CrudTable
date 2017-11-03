@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CaricaViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class CaricaViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var TxtNomeProdotto: UITextField!
     @IBOutlet weak var TxtDesc: UITextView!
@@ -35,10 +35,21 @@ class CaricaViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         }
         
         
-
-        // Do any additional setup after loading the view.
     }
 
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if(text == "\n") {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -133,6 +144,5 @@ class CaricaViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         
         dismiss(animated: true, completion: nil)
     }
-    
 
 }

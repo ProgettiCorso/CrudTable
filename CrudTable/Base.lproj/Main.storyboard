@@ -23,7 +23,10 @@
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YWX-tC-xNc" id="WGs-i6-QI6"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descrizione" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S81-3R-zxM">
                                 <rect key="frame" x="16" y="404" width="343" height="33"/>
@@ -38,6 +41,9 @@
                                 <color key="backgroundColor" red="0.89349902849740936" green="0.89349902849740936" blue="0.89349902849740936" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YWX-tC-xNc" id="bIs-gG-DFt"/>
+                                </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-Fb-FTd">
                                 <rect key="frame" x="16" y="596" width="343" height="51"/>
@@ -236,7 +242,7 @@
         <image name="gallery_icon" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wnt-lf-fYa"/>
-        <segue reference="mQb-PJ-LVq"/>
+        <segue reference="Zb3-nf-TC9"/>
+        <segue reference="Jxa-W0-uur"/>
     </inferredMetricsTieBreakers>
 </document>
