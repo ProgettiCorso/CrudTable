@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Salva"; ObjectID = "1Bw-Fb-FTd"; */
+"1Bw-Fb-FTd.normalTitle" = "Salva";
+
+/* Class = "UILabel"; text = "Titolo Prodotto"; ObjectID = "Cas-gn-ZOD"; */
+"Cas-gn-ZOD.text" = "Titolo Prodotto";
+
+/* Class = "UIButton"; normalTitle = "Carica"; ObjectID = "KdH-BW-Qz9"; */
+"KdH-BW-Qz9.normalTitle" = "Carica";
+
+/* Class = "UILabel"; text = "Descrizione"; ObjectID = "S81-3R-zxM"; */
+"S81-3R-zxM.text" = "Descrizione";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Yad-lJ-JTg"; */
+"Yad-lJ-JTg.text" = "Label";
+
+/* Class = "UILabel"; text = "Descrizione"; ObjectID = "YcV-LW-9kN"; */
+"YcV-LW-9kN.text" = "Descrizione";
+
+/* Class = "UITextField"; placeholder = "inserisci il nome del prodotto"; ObjectID = "ggF-TI-HFs"; */
+"ggF-TI-HFs.placeholder" = "inserisci il nome del prodotto";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hLt-kO-Cca"; */
+"hLt-kO-Cca.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "iPs-Kc-i2w"; */
+"iPs-Kc-i2w.title" = "Title";
+
+/* Class = "UILabel"; text = "Prodotto"; ObjectID = "jGp-ip-Aeb"; */
+"jGp-ip-Aeb.text" = "Prodotto";
+
+/* Class = "UIButton"; normalTitle = "Moifica"; ObjectID = "pUi-NA-XMi"; */
+"pUi-NA-XMi.normalTitle" = "Moifica";
+
+/* Class = "UIButton"; normalTitle = "Indietro"; ObjectID = "tjA-RT-vd8"; */
+"tjA-RT-vd8.normalTitle" = "Indietro";
