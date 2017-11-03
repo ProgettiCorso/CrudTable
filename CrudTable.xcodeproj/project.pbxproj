@@ -11,7 +11,6 @@
 		900673181FA31BB600C94DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900673161FA31BB600C94DFC /* Main.storyboard */; };
 		9006731B1FA31BB600C94DFC /* CrudTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900673191FA31BB600C94DFC /* CrudTable.xcdatamodeld */; };
 		9006731D1FA31BB600C94DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006731C1FA31BB600C94DFC /* Assets.xcassets */; };
-		900673201FA31BB600C94DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006731E1FA31BB600C94DFC /* LaunchScreen.storyboard */; };
 		9006732B1FA31BB600C94DFC /* CrudTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006732A1FA31BB600C94DFC /* CrudTableTests.swift */; };
 		900673361FA31BB600C94DFC /* CrudTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900673351FA31BB600C94DFC /* CrudTableUITests.swift */; };
 		900673441FA31C0200C94DFC /* CaricaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900673431FA31C0200C94DFC /* CaricaViewController.swift */; };
@@ -20,6 +19,7 @@
 		9006734A1FA3338A00C94DFC /* ProdottiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900673491FA3338A00C94DFC /* ProdottiTableViewController.swift */; };
 		9006734C1FA3648700C94DFC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006734B1FA3648700C94DFC /* ListTableViewCell.swift */; };
 		9006734E1FA37AF800C94DFC /* FullProdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006734D1FA37AF800C94DFC /* FullProdViewController.swift */; };
+		906E70321FACAE8F001E9914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906E70311FACAE8F001E9914 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		900673171FA31BB600C94DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9006731A1FA31BB600C94DFC /* CrudTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrudTable.xcdatamodel; sourceTree = "<group>"; };
 		9006731C1FA31BB600C94DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9006731F1FA31BB600C94DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900673211FA31BB600C94DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		900673261FA31BB600C94DFC /* CrudTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrudTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9006732A1FA31BB600C94DFC /* CrudTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudTableTests.swift; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		900673491FA3338A00C94DFC /* ProdottiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdottiTableViewController.swift; sourceTree = "<group>"; };
 		9006734B1FA3648700C94DFC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		9006734D1FA37AF800C94DFC /* FullProdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullProdViewController.swift; sourceTree = "<group>"; };
+		906E70311FACAE8F001E9914 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			children = (
 				900673121FA31BB600C94DFC /* AppDelegate.swift */,
 				900673161FA31BB600C94DFC /* Main.storyboard */,
+				906E70311FACAE8F001E9914 /* LaunchScreen.storyboard */,
 				9006731C1FA31BB600C94DFC /* Assets.xcassets */,
-				9006731E1FA31BB600C94DFC /* LaunchScreen.storyboard */,
 				900673211FA31BB600C94DFC /* Info.plist */,
 				900673191FA31BB600C94DFC /* CrudTable.xcdatamodeld */,
 				900673431FA31C0200C94DFC /* CaricaViewController.swift */,
@@ -250,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900673201FA31BB600C94DFC /* LaunchScreen.storyboard in Resources */,
+				906E70321FACAE8F001E9914 /* LaunchScreen.storyboard in Resources */,
 				9006731D1FA31BB600C94DFC /* Assets.xcassets in Resources */,
 				900673181FA31BB600C94DFC /* Main.storyboard in Resources */,
 			);
@@ -326,14 +326,6 @@
 				900673171FA31BB600C94DFC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9006731E1FA31BB600C94DFC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006731F1FA31BB600C94DFC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrudTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CrudTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
