@@ -1,12 +1,12 @@
 import XCTest
-@testable import Package_swift
+@testable import CrudTable
 
-final class Package_swiftTests: XCTestCase {
+final class CrudTableTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(Package_swift().text, "Hello, World!")
+        XCTAssertEqual(CrudTable().text, "Hello, World!")
     }
 
     static var allTests = [

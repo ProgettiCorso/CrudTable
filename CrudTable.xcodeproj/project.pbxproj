@@ -59,7 +59,6 @@
 		9006734B1FA3648700C94DFC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		9006734D1FA37AF800C94DFC /* FullProdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullProdViewController.swift; sourceTree = "<group>"; };
 		906E70311FACAE8F001E9914 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		90D71F64240D159900844293 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +109,6 @@
 		900673111FA31BB600C94DFC /* CrudTable */ = {
 			isa = PBXGroup;
 			children = (
-				90D71F64240D159900844293 /* Package.swift */,
 				900673121FA31BB600C94DFC /* AppDelegate.swift */,
 				900673161FA31BB600C94DFC /* Main.storyboard */,
 				906E70311FACAE8F001E9914 /* LaunchScreen.storyboard */,

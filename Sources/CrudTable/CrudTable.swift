@@ -1,3 +1,3 @@
-struct Package_swift {
+struct CrudTable {
     var text = "Hello, World!"
 }
