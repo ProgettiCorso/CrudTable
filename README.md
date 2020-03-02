@@ -8,3 +8,5 @@ Utilizzo della TableView per gestire:
 -Modifica Prodotto
 
 -Eliminazione Prodotto
+
+![Swift](https://github.com/fziviello/CrudTable/workflows/Swift/badge.svg?branch=master)
